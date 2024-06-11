@@ -1,5 +1,8 @@
 This model is a fine-tuned version of a pre-trained multimodal neural network, specifically adapted for facial emotion detection. It leverages a convolutional neural network (CNN) backbone for image processing and a transformer-based encoder for text input, optimized to classify emotions from facial images. The fine-tuning process utilized a labeled dataset of facial expressions to enhance the model's accuracy in detecting and categorizing human emotions.
 
+# Model
+If you want to use this model directly without running this code, or are interested in the output of this fine-tuning, you can download the weights from my kaggle repo here: https://www.kaggle.com/models/vinitvyas09/llava-finetuned-for-face-emotion-classification
+
 # Usage
 The fine-tuned model can be used for real-time emotion detection in images, making it suitable for applications in sentiment analysis, customer service, and human-computer interaction. The following code snippet demonstrates how to load and use the model for emotion classification:
 
